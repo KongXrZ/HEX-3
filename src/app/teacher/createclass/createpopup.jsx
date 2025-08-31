@@ -5,7 +5,7 @@ import { MdOutlineContentCopy } from "react-icons/md";
 
 export default function Createpopup() {
   return (
-    <div className="absolute bg-white w-[40vw] h-[65vh] rounded-2xl p-5 border-3 border-black">
+    <div className="absolute bg-white w-[40vw] h-[65vh] rounded-2xl p-5 border-3 border-black ">
       <h1 className="text-black text-2xl font-bold">ห้องเรียนใหม่</h1>
       <div className="flex justify-center gap-20 mt-5">
         <div className="flex flex-col">

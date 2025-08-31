@@ -28,9 +28,13 @@ export default function Page() {
         <h1>Create exam</h1>
       </div>
       <div className={styles.box}>
-        <div className={styles.plus_box}>
-          <FaPlus style={{ color: "black", width: "100px", height: "100px" }} />
-        </div>
+        <Link href={"/teacher/createslide/create"}>
+          <div className={styles.plus_box}>
+            <FaPlus
+              style={{ color: "black", width: "100px", height: "100px" }}
+            />
+          </div>
+        </Link>
         <h1>Create slide</h1>
       </div>
     </div>
